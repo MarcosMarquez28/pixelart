@@ -189,6 +189,20 @@ a {
     text-align: center;
     color: #f9f6f6;
     font-size: 77px;
+    gap: 63px;
 }
 
 
+
+.jumbo2__botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; 
+}
+
+.jumbo2__botones p {
+    color: #f9f6f6;
+    text-align: center;
+}
