@@ -135,3 +135,60 @@ a {
     color: #f9f6f6;
     text-align: center;
 }
+
+
+
+.informacion__imagenes {
+    display: flex;
+}
+
+.informacion__imagenes__a p{
+    display: flex;
+    align-items: center;
+    color: #f9f6f6;
+    justify-content: center;
+}
+
+
+.informacion__imagenes__b p{
+    display: flex;
+    align-items: center;
+    color: #f9f6f6;
+    justify-content: center;
+}
+
+
+.informacion__imagenes__color {
+    display: flex;
+}
+
+.informacion__imagenes__color__a p{
+    display: flex;
+    align-items: center;
+    color: #f9f6f6;
+    justify-content: center;
+}
+
+.informacion__imagenes__color__b p{
+    display: flex;
+    align-items: center;
+    color: #f9f6f6;
+    justify-content: center;
+}
+
+.jumbo2 {
+    display: flex;
+}
+
+.jumbo2__botoncitos .jumb2__texto p{
+    text-align: center;
+    color: #f9f6f6;
+}
+
+.jumbo2__botoncitos .jumb2__texto h1{
+    text-align: center;
+    color: #f9f6f6;
+    font-size: 77px;
+}
+
+
