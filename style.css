@@ -33,19 +33,19 @@ body {
     gap: 35px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
-    
+
 }
 
 .navbar__logo p {
     font-size: 64px;
     color: #f9f6f6;
     font-weight: 700;
-    
+
 }
 
 ul {
@@ -74,12 +74,12 @@ a {
     display: flex;
     background-color: #F28241;
     gap: 20px;
-    
+
 }
 
 .navbar__login button.navbar__buttonb path {
     fill: #f9f6f6;
-    
+
 }
 
 .navbar__search {
@@ -104,33 +104,35 @@ a {
     fill: #f9f6f6;
 }
 
-.navbar__menu-superior{
+.navbar__menu-superior {
     display: flex;
     gap: 34px;
 }
 
-.navbar__menu-superior li{
+.navbar__menu-superior li {
     display: flex;
     color: #f9f6f6;
 }
 
-.navbar__menu-superior path{
+.navbar__menu-superior path {
     fill: #f9f6f6;
 }
 
 
-.jumbotron{
+.jumbotron {
     height: 500px;
-    background-image: url("/assets/OIP\ \(3\).jpg");
+    background-image: url("/assets/JUMBO\ 1.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     padding: 30px;
     display: flex;
     align-items: center;
 }
 
-.jumbotron__title{
+
+
+
+.jumbotron__title {
     font-size: 96px;
     color: #f9f6f6;
     text-align: center;
@@ -142,7 +144,7 @@ a {
     display: flex;
 }
 
-.informacion__imagenes__a p{
+.informacion__imagenes__a p {
     display: flex;
     align-items: center;
     color: #f9f6f6;
@@ -150,7 +152,7 @@ a {
 }
 
 
-.informacion__imagenes__b p{
+.informacion__imagenes__b p {
     display: flex;
     align-items: center;
     color: #f9f6f6;
@@ -162,14 +164,14 @@ a {
     display: flex;
 }
 
-.informacion__imagenes__color__a p{
+.informacion__imagenes__color__a p {
     display: flex;
     align-items: center;
     color: #f9f6f6;
     justify-content: center;
 }
 
-.informacion__imagenes__color__b p{
+.informacion__imagenes__color__b p {
     display: flex;
     align-items: center;
     color: #f9f6f6;
@@ -178,14 +180,24 @@ a {
 
 .jumbo2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 117px;
+    gap: 166px;
 }
 
-.jumbo2__botoncitos .jumb2__texto p{
+.jumbo2__botoncitos {
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+
+.jumbo2__botoncitos .jumb2__texto p {
     text-align: center;
     color: #f9f6f6;
 }
 
-.jumbo2__botoncitos .jumb2__texto h1{
+.jumbo2__botoncitos .jumb2__texto h1 {
     text-align: center;
     color: #f9f6f6;
     font-size: 77px;
@@ -199,10 +211,61 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 60px; 
+    gap: 60px;
 }
 
 .jumbo2__botones p {
     color: #f9f6f6;
     text-align: center;
+}
+
+.jumb2__botones__boceto {
+    background-color: #FF792B;
+    width: 188px;
+    height: 75px;
+    color: #f9f6f6;
+
+}
+
+.jumbo2__botones__luces {
+    background-color: #4492FB;
+    width: 188px;
+    height: 75px;
+    color: #f9f6f6;
+
+}
+
+.jumbo2__botones__jumbo {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios{
+    display: flex;
+    background-image: url(/assets/1169197.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbo3__horarios__boceto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbo3__horarios__boceto__icono{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.jumbo3__horarios__boceto__icono h2{
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__boceto__icono p{
+    color: #f9f6f6;
 }
