@@ -240,32 +240,339 @@ a {
     gap: 83px;
 }
 
-.jumbo3__horarios{
+.jumbo3 {
     display: flex;
-    background-image: url(/assets/1169197.png);
+    background-image: url(/assets/fondo\ nuevo.PNG);
     align-items: center;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
 }
 
-.jumbo3__horarios__boceto{
+
+
+.jumbo3__horarios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.jumbo3__horarios__boceto {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 73px;
 }
 
-.jumbo3__horarios__boceto__icono{
+.jumbo3__horarios__luces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+.jumbo3__horarios__composicion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+}
+
+.jumbo3__horarios__boceto__icono {
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
-
 }
 
-.jumbo3__horarios__boceto__icono h2{
+.jumbo3__horarios__luces__icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.jumbo3__horarios__composicion__icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.jumbo3__horarios__boceto__icono h2 {
     color: #f9f6f6;
 }
 
-.jumbo3__horarios__boceto__icono p{
+.jumbo3__horarios__luces__icono h2 {
     color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__icono h2 {
+    color: #f9f6f6;
+}
+
+
+.jumbo3__horarios__boceto__icono p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__luces__icono p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__icono p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__boceto__soles {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__luces__soles {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__composicion__soles {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__boceto__soles__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__luces__soles__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__soles__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__boceto__soles__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__luces__soles__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__composicion__soles__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__boceto__soles__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__luces__soles__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__composicion__soles__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__boceto__soles__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__luces__soles__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__soles__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__boceto__soless {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__luces__soless {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__composicion__soless {
+    display: flex;
+    gap: 83px;
+}
+
+.jumbo3__horarios__boceto__soless__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__luces__soless__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__composicion__soless__lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__boceto__soless__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__luces__soless__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__soless__lunes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__boceto__soless__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__luces__soless__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jumbo3__horarios__composicion__soless__martes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.jumbo3__horarios__boceto__soless__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__luces__soless__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo3__horarios__composicion__soless__martes p {
+    color: #f9f6f6;
+}
+
+.jumbo4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    background-image: url(/assets/TARJETA\ \ 2.png);
+    text-align: center;
+    gap: 50px;
+}
+
+.jumbo4 p {
+    color: #f9f6f6ab;
+
+}
+
+.jumbo4__clases {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    width: 585px;
+    height: 603;
+}
+
+.jumbo4__clases__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.jumbo4__clases__texto h2 {
+    color: #f9f6f6;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.jumbo4__clases__texto p {
+    color: #f9f6f6;
+}
+
+.jumbo4__clases button {
+    color: #f9f6f6;
+    font-size: 64px;
+    font-weight: bold;
+    background-color: #FF792B;
+    width: 585px;
+    height: 90px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 63px;
+    height: 300px;
+}
+
+.final__contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.final__contactos h2{
+    color: #f9f6f6;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.final__contactos__iconos{
+    display: flex;
+    gap: 50px;
+}
+
+.final__contactos__iconos path{
+    fill: #f9f6f6;
+}
+
+.final__credito{
+    display: flex;
+    gap: 25px;
+}
+
+.final__credito p{
+    color: #f9f6f6;
+}
+
+.final__credito path{
+    fill: #f9f6f6;
 }
