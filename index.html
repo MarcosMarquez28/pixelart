@@ -1,11 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
+    <!-- todo lo que esta dentro del head es metadatos, solo informacion -->
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- metadatos para motores de busqueda -->
+    <meta name="description"
+        content="Sumérgete en el maravilloso mundo del pixelart y comienza a aprender desde cero. Únete a nuestras clases en vivo donde descubrirás las técnicas fundamentales y avanzadas para crear increíbles obras maestras pixeladas. ¡Es hora de darle vida digital a tu creatividad">
+    <meta name="keywords" content="pixelart, aprender, clases, tecnicas, en vivo">
+
+    <!-- metadatos de Open Graph -->
+    <meta property="og:title" content="Aprende todo sobre el Pixelart">
+    <meta property="og:description" content="Regitrate, Aprende y Gana">
+    <meta property="og:url" content="pixelart.com">
+
+    <!-- metadatos de X -->
+
     <title>Pixelart</title>
 </head>
+
+<link rel="stylesheet" href="style.css">
+
+
 <body>
-    
+    <!-- lo que esta dentro de body si es informacion visual -->
+    <div class="racata">
+
+        <div class="navbar">
+            <!-- LOGO -->
+            <div class="navbar__logo">
+                <p>LOGO</p>
+            </div>
+
+            <!-- BARRA DE BUSQUEDA -->
+            <form class="navbar__search">
+                <input type="text" placeholder="BUSQUEDA">
+
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M6 2h8v2H6zM4 6V4h2v2zm0 8H2V6h2zm2 2H4v-2h2zm8 0v2H6v-2zm2-2h-2v2h2v2h2v2h2v2h2v-2h-2v-2h-2v-2h-2zm0-8h2v8h-2zm0 0V4h-2v2z" />
+                    </svg>
+                </button>
+            </form>
+
+
+            <!-- INICIAR SESION Y REGITRARME -->
+
+            <div class="navbar__login">
+                <button class="navabar__buttona">
+                    INICIAR SESION
+                </button>
+
+                <button class="navbar__buttonb">
+                    REGISTRATE
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M7 9H6V5h1V3h1V2h2V1h4v1h2v1h1v2h1v4h-1v2h-1v1h-2v1h-4v-1H8v-1H7zm15 10v3h-1v1H3v-1H2v-3h1v-1h1v-1h1v-1h2v-1h10v1h2v1h1v1h1v1z" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <!-- CLASES, MATERIAS, HORARIOS -->
+        <ul class="navbar__menu-superior">
+            <li>
+                clases
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M20 8v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1H9v-1H8v-1H7v-1H6v-1H5V9H4V8h1V7h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h1V7h1v1z" />
+                </svg>
+            </li>
+            <li>
+                materias
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M20 8v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1H9v-1H8v-1H7v-1H6v-1H5V9H4V8h1V7h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h1V7h1v1z" />
+                </svg>
+            </li>
+            <li>
+                horarios
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M20 8v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1H9v-1H8v-1H7v-1H6v-1H5V9H4V8h1V7h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h1V7h1v1z" />
+                </svg>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="jumbotron__title">
+
+        </h1>
+    </div>
+
+    <div class="jumbo2">
+
+        <div class="jumbo2__informacion">
+
+            <div class="informacion__imagenes">
+
+                <div class="informacion__imagenes__a">
+                    <img src="/assets/Frame 23 (1).jpg" alt="">
+                    <p>BOCETO</p>
+                </div>
+
+                <div class="informacion__imagenes__b">
+                    <img src="/assets/Frame 22.jpg" alt="">
+                    <p>COLOR</p>
+                </div>
+            </div>
+
+            <div class="informacion__imagenes__color">
+                <div class="informacion__imagenes__color__a">
+                    <img src="/assets/Frame 21.jpg" alt="">
+                    <p>LUCES Y SOMBRAS</p>
+
+                </div>
+
+                <div class="informacion__imagenes__color__b">
+                    <img src="/assets/Frame 24.jpg" alt="">
+                    <p>RESULTADO</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="jumbo2__botoncitos">
+
+            <div class="jumb2__texto">
+                <p>DIFERENTES TEMAS PARA</p>
+                <h1>APRENDER</h1>
+            </div>
+
+            <div class="jumbo2__botones">
+
+                <div class="jumbo2__botones__jumbo">
+                    <button class="jumb2__botones__boceto">
+                        BOCETO Y COLOR
+                    </button>
+
+                    <button class="jumbo2__botones__luces">
+                        LUCES Y SOMBRA
+                    </button>
+                </div>
+
+                <p>PASO A PASO APRENDERAS LO MÁS BÁSICO DEL PIXEL ART
+                    PARA SEGUIR DESARROLANDO TUS HABILIDADES EN ESTE MUNDO
+                    MARAVILLOSO </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="jumbo3">
+
+        <!-- HORARIOS -->
+
+        <div class="jumbo3__horarios">
+
+
+            <!-- COPIA Y PEGA PARA CAMBIAR LA INFO-->
+
+            <div class="jumbo3__horarios__boceto">
+
+                <div class="jumbo3__horarios__boceto__icono">
+                    <img src="/assets/Frame 35.png" alt="">
+                    <h2>BOCETO Y COLOR</h2>
+                    <p>CLASES LUNES Y MARTES</p>
+                </div>
+
+                <div class="jumbo3__horarios__boceto__soles">
+
+                    <div class="jumbo3__horarios__boceto__soles__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>LUNES - 9 AM / 12 PM BOCETO</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__boceto__soles__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>MARTES - 9 AM / 12 PM COLOR</p>
+                    </div>
+                </div>
+
+                <div class="jumbo3__horarios__boceto__soless">
+
+                    <div class="jumbo3__horarios__boceto__soless__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>LUNES - 1 PM / 4 PM BOCETO</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__boceto__soless__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>MARTES - 1 PM / 4 PM BOCETO</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="jumbo3__horarios__luces">
+
+                <div class="jumbo3__horarios__luces__icono">
+                    <img src="/assets/Frame 35.png" alt="">
+                    <h2>LUCES Y SOMBRAS</h2>
+                    <p>CLASES MIERCOLES Y JUEVES</p>
+                </div>
+
+                <div class="jumbo3__horarios__luces__soles">
+
+                    <div class="jumbo3__horarios__luces__soles__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>MIERCOLES - 9 AM / 12 PM BOCETO</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__luces__soles__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>JUEVES - 9 AM / 12 PM COLOR</p>
+                    </div>
+                </div>
+
+                <div class="jumbo3__horarios__luces__soless">
+
+                    <div class="jumbo3__horarios__luces__soless__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>MIERCOLES - 1 PM / 4 PM LUCES</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__luces__soless__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>JUEVES - 1 PM / 4 PM COLOR</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="jumbo3__horarios__composicion">
+
+                <div class="jumbo3__horarios__composicion__icono">
+                    <img src="/assets/Frame 35.png" alt="">
+                    <h2>COMPOSICION</h2>
+                    <p>CLASES VIERNES Y SABADOS</p>
+                </div>
+
+                <div class="jumbo3__horarios__composicion__soles">
+
+                    <div class="jumbo3__horarios__composicion__soles__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>VIERNES- 9 AM / 12 PM FORMAS</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__composicion__soles__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>SABADOS - 9 AM / 12 PM ORDEN</p>
+                    </div>
+                </div>
+
+                <div class="jumbo3__horarios__composicion__soless">
+
+                    <div class="jumbo3__horarios__composicion__soless__lunes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>VIERNES - 1 PM / 4 PM FORMAS</p>
+                    </div>
+
+                    <div class="jumbo3__horarios__composicion__soless__martes">
+                        <img src="/assets/Frame 36.png" alt="">
+                        <p>VIERNES - 1 PM / 4 PM ORDEN</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="jumbo4">
+
+        <div class="jumbo4__clases">
+
+            <div class="jumbo4__clases__texto">
+                <h2>CLASES EN VIVO</h2>
+                <p>PODRÁS DISFRUTAR Y APRENDER EN NUESTRAS CLASES VIRTUALES
+                    TOTALMENTE EN VIVO, DONDE PARTICIPARÁS EN INTERACCIONES
+                    DINÁMICAS Y MUCHAS SORPRESAS COMO</p>
+
+                <div class="jumbo4__clases__texto__cofre">
+                    <img src="/assets/estrellas.png" alt="">
+                    <img src="/assets/cofre.png" alt="">
+                    <img src="/assets/estrellas.png" alt="">
+                </div>
+            </div>
+
+            <button>
+                RECOMPENSAS
+            </button>
+
+            <p>AL SER PARTE DE NUESTRAS CLASES EN VIVO TAMBIE ESTARIAS PARTICIPANDO EN
+                SORTEOS Y REGALOS EN OCASIONES ESPECIALES, COMO TAMBIEN A LOS
+                MEJORES ESTUDIANTES CON MAYOR DESEMPEÑO, ASISTENCIA Y
+                APAYO A NUESTRAS CLASES</p>
+        </div>
+
+    </div>
+
+    <div class="final">
+
+        <div class="final__contactos">
+
+            <h2>CONTACTANOS</h2>
+
+            <div class="final__contactos__iconos">
+
+                <!--INSTAGRAM-->
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M17 9V8h-1V7h-1V6H9v1H8v1H7v1H6v6h1v1h1v1h1v1h6v-1h1v-1h1v-1h1V9zm-1 5h-1v1h-1v1h-4v-1H9v-1H8v-4h1V9h1V8h4v1h1v1h1z" />
+                    <path fill="currentColor"
+                        d="M22 5V3h-1V2h-2V1H5v1H3v1H2v2H1v14h1v2h1v1h2v1h14v-1h2v-1h1v-2h1V5zm-1 14h-1v1h-1v1H5v-1H4v-1H3V5h1V4h1V3h14v1h1v1h1z" />
+                    <path fill="currentColor" d="M17 5h2v2h-2z" />
+                </svg>
+
+                <!--YOUTUBE-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M22 7V5h-2V4H4v1H2v2H1v10h1v2h2v1h16v-1h2v-2h1V7zm-10 8h-2V9h2v1h2v1h2v2h-2v1h-2z" />
+                </svg>
+
+                <!--TWITER-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M15.5 10V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h-3v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2V7h-1V6h-1V4h-1V3h-1V2h-7v1h1v1h1v1h1v2h1v1h1v2h1v1h1v2h1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h3v-1h1v-1h1v-1h1v-1h1v-1h1v-1h2v1h1v1h1v2h1v1h1v1h7v-1h-1v-1h-1v-1h-1v-2h-1v-1h-1v-2h-1v-1h-1v-2h-1v-1zm0 4v1h1v2h1v1h1v2h-3v-2h-1v-1h-1v-1h-1v-2h-1v-1h-1v-1h-1v-2h-1V9h-1V7h-1V6h-1V4h3v1h1v2h1v1h1v2h1v1h1v1h1v2z" />
+                </svg>
+
+                <!--DISCORD-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M22 11V8h-1V6h-1V5h-2V4h-3v1H9V4H6v1H4v1H3v2H2v3H1v7h2v1h2v1h2v-2H6v-1h2v1h1v1h6v-1h1v-1h2v1h-1v2h2v-1h2v-1h2v-7ZM9 15H7v-1H6v-2h1v-1h2v1h1v2H9Zm9-1h-1v1h-2v-1h-1v-2h1v-1h2v1h1Z" />
+                </svg>
+
+                <!--FACEBOOCK-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M23 2v20h-1v1h-8v-8h2v-1h1v-2h-3V9h1V8h2V5h-4v1h-2v2h-1v4H7v3h3v8H2v-1H1V2h1V1h20v1z" />
+                </svg>
+
+                <!--TWICH-->
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M6 1v1H5v1H4v1H3v1H2v14h5v4h1v-1h1v-1h1v-1h1v-1h4v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1V1Zm14 11h-1v1h-1v1h-5v1h-1v1h-1v1h-1v-3H7V3h13Z" />
+                    <path fill="currentColor" d="M16 5h2v5h-2zm-5 0h2v5h-2z" />
+                </svg>
+
+            </div>
+
+        </div>
+
+        <div class="final__credito">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M22 9V7h-1V5h-1V4h-1V3h-2V2h-2V1H9v1H7v1H5v1H4v1H3v2H2v2H1v7h1v1h1v2h1v1h1v1h2v1h2v1h6v-1h2v-1h2v-1h1v-1h1v-2h1v-2h1V9zm-1 1v4h-3v-4zm-5-6h1v1h2v2h1v1h-3V5h-1zm-2 14v2h-1v1h-2v-1h-1v-2H9v-2h6v2zm2-8v4H8v-4zM9 6h1V4h1V3h2v1h1v2h1v2H9zM4 7h1V5h2V4h1v1H7v3H4zm-1 7v-4h3v4zm2 5v-2H4v-1h3v3h1v1H7v-1zm14-2v2h-2v1h-1v-1h1v-3h3v1z" />
+            </svg>
+            
+            <p>DESING WITH LOVE COMPASSTUDIO 2025. ALL RIGHT RESERVED</p>
+
+        </div>
+    </div>
+
 </body>
+
 </html>
